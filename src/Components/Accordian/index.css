@@ -1,0 +1,56 @@
+.wrapper {
+    box-sizing: border-box;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.accordian {
+    width: 500px;
+    background-color: #ACE1AF;
+}
+
+.item {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 43%, rgba(31, 172, 42, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    margin-bottom: 2rem;
+    padding: 2rem 2rem;
+    border-radius: 10px;
+}
+
+.title {
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+}
+
+.description {
+    color: whitesmoke;
+    height: auto;
+    text-align: left;
+}
+
+.Answer {
+    border-top: 2px solid whitesmoke;
+}
+
+span {
+    box-sizing: border-box;
+    font-size: x-large;
+    font-weight: 200px;
+    font-style: bold;
+}
+.wrapper button{
+    background-color:#ACE1AF;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    width: 7rem;
+    height: 2rem;
+}
